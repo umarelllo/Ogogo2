@@ -82,8 +82,8 @@
 
 // let a = 5
 // switch (a) {
-//    case a > 3:
+//    case 3:
 //        console.log('a > 3')
-//    case a < 7:
+//    case 7:
 //        console.log('a < 7')
 // }
