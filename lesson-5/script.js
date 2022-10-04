@@ -33,3 +33,4 @@ console.log(calcArr) */
 /* const tag = document.querySelector('.wrapper')
 console.log(tag) */
 
+//ss
