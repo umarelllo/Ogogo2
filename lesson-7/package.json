@@ -1,0 +1,26 @@
+{
+  "name": "module2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "script": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umarelllo/ogogo2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umarelllo/ogogo2/issues"
+  },
+  "homepage": "https://github.com/umarelllo/ogogo2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10"
+  },
+  "scripts": {
+    "dev": "browser-sync start --server --files src/*.css *.html src/*.js",
+    "t": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  }
+}

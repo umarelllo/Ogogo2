@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <a
+          class="header_link"
+          href="./index.html"
+          >Shopping App</a
+        >
+      </div>
+    </header>
+      <!-- Sort Block -->
+      <div class='sort_wrapper'>
+       <section class='sort_section'>
+        <div class='sort_container'>
+          <div class='sort_categories'>
+            <span class='sort_categories_item'>Categories</span>
+            <img src='./src/img/chevron-down-arrow.svg'alt='Arrow Down' width='20'/>
+          </div>
+          <input class='sort_search'
+          type='search'
+          placeholder='Search'/>
+          <div class='sort_search_right'>
+          <img src='./src/img/search.svg' width='30' alt='Search'>
+          </div>
+        </div>
+       </section>
+       <section class='my-7'>
+        <h2 class='text_xl font-medium'>All Products</h2>
+        <!-- Products -->
+        <div class='my-5 test flex flex-wrap'>
+        </div>
+       </section>
+      </div>
+    <script src="/src/main.js"></script>
+  </body>
+</html>
