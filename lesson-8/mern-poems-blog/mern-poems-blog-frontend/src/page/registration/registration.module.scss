@@ -1,0 +1,9 @@
+.register {
+    @apply h-screen flex justify-center items-center;
+    .wrapperFormRegistration {
+      @apply w-[600px] h-[500px]  flex flex-col justify-center items-center bg-gray-100 p-10 rounded-lg;
+      h3 {
+        @apply text-2xl font-bold text-black tracking-wide mb-5;
+      }
+  }
+}
